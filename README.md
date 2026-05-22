@@ -1,2 +1,3 @@
-# VeldLink-2026
-VeldLink EcoSync 2026 system- includes code and fix for the sync-logic branch created to resolve sensor-to-cloud desync without disrupting Main branch stability when working offline or with poor signal
+# Branch: fix-sync-logic
+This branch is created to fix the sync logic issue when the data fails to sync from the cattleSensor to AWSCloudDatabase due to poor signal or when the system is offline. 
+All changes are done here so that the main branch is always stable and working all the time. 
