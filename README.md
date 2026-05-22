@@ -3,3 +3,5 @@ This branch is created to fix the sync logic issue when the data fails to sync f
 All changes are done here so that the main branch is always stable and working all the time. 
 
 Fixed: Reconnection logic in SyncManager.js so that the CattleSensor reconnects after signal loss
+
+Updated Status: Fix complete, ready for unit testing and verification
